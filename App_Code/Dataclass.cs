@@ -273,7 +273,7 @@ public class Dataclass
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@type", type);
 
-            da.Fill(dt);
+            da.Fill(dt);    
         }
         return dt;
     }

@@ -27,11 +27,11 @@
             <header class="noFixMenu menu_right with_user_menu no_container_padding">
                 <div class="topWrapFixed"></div>
                 <div class="topWrap">
-                    <div class="usermenu_area">
+                             <div class="usermenu_area">
                         <div class="container">
                             <div class="menuUsItem menuItemRight">
                                 <ul class="usermenu_list" id="usermenu">
-                             
+
                                     <li class="usermenu_login">
                                         <a href="login.aspx">Login</a>
                                     </li>
@@ -50,8 +50,8 @@
                         <div class="container with_logo_left">
                             <div class="logo logo_left">
                                 <a href="Default.aspx">
-                                    <img src="images/logo/bhopal.png" class="logo_main" alt="">
-                                    <img src="images/logo/bhopal.png" class="logo_fixed" alt="">
+                                    <img src="images/logo/logonew.png" class="logo_main" alt="">
+                                    <img src="images/logo/logonew.png" class="logo_fixed" alt="">
                                     <span class="logo_slogan"></span>
                                 </a>
                             </div>
@@ -79,7 +79,9 @@
                                             <li class="menu-item">
                                                 <a href="RoadFurniture.aspx">Road Furniture</a>
                                             </li>
-
+                                            <li class="menu-item">
+                                                <a href="EventManagement.aspx">Event Management</a>
+                                            </li>
                                         </ul>
                                     </li>
 
@@ -98,136 +100,69 @@
                 </div>
             </header>
 
-            <div id="mainslider_1" class="sliderHomeBullets staticSlider slider_engine_revo slider_alias_revo-seo1">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="images/slider/slider3.jpg" alt="Los Angeles" style="width: 100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/slider/slider1.jpg" alt="Chicago" style="width: 100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/slider/slider2.jpg" alt="New York" style="width: 100%;">
+                        <%--   <div class="carousel-caption">
+                                <h3>New York</h3>
+                                <p>We love the Big Apple!</p>
+                            </div>--%>
+                    </div>
+                    <div class="item">
+                        <img src="images/slider/slider4.jpg" alt="New York" style="width: 100%;">
+                    </div>
+                    <div class="item">
+                        <img src="images/slider/slider5.jpg" alt="New York" style="width: 100%;">
+                    </div>
+                    <div class="item">
+                        <img src="images/slider/slider6.jpg" alt="New York" style="width: 100%;">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <%-- <div id="mainslider_1" class="sliderHomeBullets staticSlider slider_engine_revo slider_alias_revo-seo1">
+                
+
                 <div id="rev_slider_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
                     <div id="rev_slider" class="rev_slider fullwidthabanner">
-                        <ul>
-                            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                                <img src="images/slider/transparent.png" class="slider_1_bg" alt="babbysitter-slider-ground" data-bgposition="center bottom" data-bgfit="normal" data-bgrepeat="no-repeat">
-                                <div class="tp-caption lfl rs-parallaxlevel-0" data-x="center" data-hoffset="-305" data-y="bottom" data-voffset="-111" data-speed="300" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <div class="tp-layer-inner-rotation rs-slideloop" data-easing="Power3.easeInOut" data-speed="2" data-xs="0" data-xe="0" data-ys="0" data-ye="0">
-                                        <img src="images/slider/advertise.png" alt="">
-                                    </div>
-                                </div>
-                                <%--<div class="tp-caption customin rs-parallaxlevel-0" data-x="center" data-hoffset="-301" data-y="center" data-voffset="69" data-customin="x:0;y:60;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="1000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide1_object_3.png" alt="">
-                                </div>
-                                <div class="tp-caption sfb rs-parallaxlevel-1" data-x="center" data-hoffset="-201" data-y="center" data-voffset="24" data-speed="300" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide1_object_2.png" alt="">
-                                </div>--%>
-                                <div class="tp-caption _seo_title lfr tp-resizeme rs-parallaxlevel-0" data-x="681" data-y="221" data-speed="300" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <div class="tp-layer-inner-rotation _seo_title  rs-slideloop" data-easing="Power3.easeInOut" data-speed="2" data-xs="0" data-xe="0" data-ys="0" data-ye="0">
-                                        All Types of 
-                                    </div>
-                                </div>
-                                <div class="tp-caption _seo_title sfr tp-resizeme rs-parallaxlevel-0" data-x="681" data-y="291" data-speed="300" data-start="1500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <div class="tp-layer-inner-rotation _seo_title  rs-slideloop" data-easing="Power3.easeInOut" data-speed="2" data-xs="0" data-xe="0" data-ys="0" data-ye="0">
-                                        Signage & Branding
-                                    </div>
-                                </div>
-                                <div class="tp-caption _text lfr tp-resizeme rs-parallaxlevel-0" data-x="681" data-y="391" data-speed="300" data-start="2000" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <div class="tp-layer-inner-rotation _text  rs-slideloop" data-easing="Power3.easeInOut" data-speed="2" data-xs="0" data-xe="0" data-ys="0" data-ye="0">
-                                        <a href="Contactus.aspx" class='button-action red' data-text='Make a call'>
-                                            <span>Contact</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                                <img src="images/slider/transparent.png" class="slider_2_bg" alt="babbysitter-slider-ground" data-bgposition="center bottom" data-bgfit="normal" data-bgrepeat="no-repeat">
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="-445" data-y="center" data-voffset="150" data-speed="300" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_line_dot.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade customout rs-parallaxlevel-0" data-x="center" data-hoffset="-445" data-y="center" data-voffset="150" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1.8;scaleY:1.8;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="600" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="900" data-endspeed="700">
-                                    <img src="images/slider/slide2_line_dot.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="-445" data-y="center" data-voffset="100" data-speed="300" data-start="650" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_line_dash.png" alt="">
-                                </div>
-                                <div class="tp-caption lft rs-parallaxlevel-0" data-x="center" data-hoffset="-444" data-y="center" data-voffset="20" data-speed="300" data-start="700" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_object_1.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="262" data-y="center" data-voffset="145" data-speed="300" data-start="800" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_line_line.png" alt="">
-                                </div>
-                                <div class="tp-caption _seo_text sfb tp-resizeme rs-parallaxlevel-0" data-x="center" data-hoffset="-445" data-y="center" data-voffset="200" data-speed="300" data-start="800" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    Ideas
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="-230" data-y="center" data-voffset="50" data-speed="300" data-start="1100" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_object_2.png" alt="">
-                                </div>
-                                <div class="tp-caption customin rs-parallaxlevel-0" data-x="center" data-hoffset="0" data-y="center" data-voffset="150" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1.2;scaleY:1.2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_line_dot.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade customout rs-parallaxlevel-0" data-x="center" data-hoffset="0" data-y="center" data-voffset="150" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1.8;scaleY:1.8;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="1600" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="1900" data-endspeed="700">
-                                    <img src="images/slider/slide2_line_dot.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-speed="300" data-start="1650" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_line_dash.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="0" data-y="center" data-voffset="-10" data-speed="300" data-start="1700" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_object_3.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="51" data-y="center" data-voffset="-25" data-speed="300" data-start="2100" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_arrow_shadow.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="50" data-y="center" data-voffset="-30" data-speed="300" data-start="2000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_arrow.png" alt="">
-                                </div>
-                                <div class="tp-caption _seo_text sfb tp-resizeme rs-parallaxlevel-0" data-x="center" data-hoffset="0" data-y="center" data-voffset="200" data-speed="300" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    Targeting
-                                </div>
-                                <div class="tp-caption customin rs-parallaxlevel-0" data-x="707" data-y="center" data-voffset="145" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 50%;" data-speed="300" data-start="1800" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_line_line.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="230" data-y="center" data-voffset="50" data-speed="300" data-start="2100" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_object_4.png" alt="">
-                                </div>
-                                <div class="tp-caption customin rs-parallaxlevel-0" data-x="center" data-hoffset="445" data-y="center" data-voffset="151" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1.2;scaleY:1.2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="2500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_line_dot.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade customout rs-parallaxlevel-0" data-x="center" data-hoffset="445" data-y="center" data-voffset="151" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1.8;scaleY:1.8;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="2600" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="2900" data-endspeed="700">
-                                    <img src="images/slider/slide2_line_dot.png" alt="">
-                                </div>
-                                <div class="tp-caption tp-fade rs-parallaxlevel-0" data-x="center" data-hoffset="445" data-y="center" data-voffset="100" data-speed="300" data-start="2650" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_line_dash.png" alt="">
-                                </div>
-                                <div class="tp-caption sft rs-parallaxlevel-0" data-x="center" data-hoffset="445" data-y="center" data-voffset="20" data-speed="300" data-start="2700" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide2_object_5.png" alt="">
-                                </div>
-                                <div class="tp-caption _seo_text sfb tp-resizeme rs-parallaxlevel-0" data-x="center" data-hoffset="445" data-y="center" data-voffset="200" data-speed="300" data-start="2800" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    Mission
-                                </div>
-                            </li>
-                            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                                <img src="images/slider/transparent.png" class="slider_3_bg" alt="babbysitter-slider-ground" data-bgposition="center bottom" data-bgfit="normal" data-bgrepeat="no-repeat">
-                                <%--               <div class="tp-caption lfr rs-parallaxlevel-0" data-x="866" data-y="181" data-speed="300" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <img src="images/slider/slide3_object_1.png" alt="">
-                                </div>--%>
-                                <div class="tp-caption customin rs-parallaxlevel-0" data-x="center" data-hoffset="370" data-y="center" data-voffset="51" data-customin="x:0;y:60;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <div class="tp-layer-inner-rotation rs-pulse" data-easing="Power3.easeInOut" data-speed="2" data-zoomstart="1" data-zoomend="1.08">
-                                        <img src="images/slider/2road.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="tp-caption tp-fade fadeout rs-parallaxlevel-0" data-x="866" data-y="181" data-speed="300" data-start="1000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="1">
-                                    <img src="images/slider/slide3_object_3.png" alt="">
-                                </div>
-                                <div class="tp-caption _seo_title_small lfl tp-resizeme rs-parallaxlevel-0" data-x="116" data-y="201" data-speed="300" data-start="500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    All type road
-                                </div>
-                                <div class="tp-caption _seo_title_small lfl tp-resizeme rs-parallaxlevel-0" data-x="116" data-y="261" data-speed="300" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    furniture manufacturer & supplier
-                                </div>
-                                <div class="tp-caption _text lfl tp-resizeme rs-parallaxlevel-0" data-x="116" data-y="371" data-speed="300" data-start="1500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                    <a href="Contactus.aspx" class='button-action darkgrey big' data-text='GET IT NOW!'>
-                                        <span>make a call</span>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
+
+                       
                     </div>
                 </div>
-            </div>
+            </div>--%>
             <div class="mainWrap without_sidebar">
                 <div class="content">
 
@@ -273,11 +208,14 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <div class="text-center animated">
+                                    <%--<div class="text-center animated">
                                         <div class="sc_button margin_top_big sc_button_style_dark sc_button_size_banner squareButton dark banner">
-                                            <a href="#" class="">Start my Free 30-Day Trial</a>
                                         </div>
-                                    </div>
+                                    </div>--%>
+                                    <video width="100%" height="auto" controls>
+                                        <source src="images/logo/movie.mp4" type="video/mp4">
+                                    </video>
+
                                 </div>
                             </div>
                             <div class="row">
@@ -481,7 +419,7 @@
             </div>
         </div>
     </div>
-     
+
 </body>
 
 <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>

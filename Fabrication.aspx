@@ -45,8 +45,8 @@
                         <div class="container with_logo_left">
                             <div class="logo logo_left">
                                 <a href="Default.aspx">
-                                    <img src="images/logo/bhopal.png" class="logo_main" alt="">
-                                    <img src="images/logo/bhopal.png" class="logo_fixed" alt="">
+                                    <img src="images/logo/logonew.png" class="logo_main" alt="">
+                                    <img src="images/logo/logonew.png" class="logo_fixed" alt="">
                                     <span class="logo_slogan"></span>
                                 </a>
                             </div>
@@ -74,7 +74,9 @@
                                             <li class="menu-item">
                                                 <a href="RoadFurniture.aspx">Road Furniture</a>
                                             </li>
-
+                                            <li class="menu-item">
+                                                <a href="EventManagement.aspx">Event Management</a>
+                                            </li>
                                         </ul>
                                     </li>
 

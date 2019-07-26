@@ -42,6 +42,7 @@
                                                     <asp:ListItem Text="Advertisment" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="Fabrication" Value="2"></asp:ListItem>
                                                     <asp:ListItem Text="Road Furniture" Value="3"></asp:ListItem>
+                                                    <asp:ListItem Text="Event Management" Value="4"></asp:ListItem>
                                                 </asp:DropDownList>
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" InitialValue="0" runat="server" ControlToValidate="ddlCategory" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
                                             </div>
